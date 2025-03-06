@@ -22,7 +22,7 @@ public class Ponto {
         return "("+x+","+y+")";
     }
 
-    public Ponto calculaPontoProx(Ponto p1, Ponto p2){
+    public static Ponto calculaPontoProx(Ponto p1, Ponto p2){
         double distP1 = p1.calculaDistOrigem();
         double distP2 = p2.calculaDistOrigem();
         if (distP1 < distP2){
